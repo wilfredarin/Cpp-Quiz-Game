@@ -96,7 +96,7 @@ int main(){
 				check_repeat[rand_line]=1;
 
 				
-				ifstream file("at.txt");
+				ifstream file("quiz_bank.txt");
 				while(rand_line!=line_counter){
 					getline(file,question);
 					getline(file,answer);
